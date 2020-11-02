@@ -6,7 +6,10 @@ actor Alfonso
 
 rectangle "Mario's Pizzaria"{
   Customer --> (Menu)
-  Customer --* (Order)
+  Customer --> (Butik)
+  (Online) <. (Order)
+  (Butik) .> (Order)
+  Customer --> (Online)
 
   (Order) --> Alfonso
   (ForbrugOversigt) <-- Alfonso

@@ -1,5 +1,44 @@
 @startuml
-Pizza "1" -* "*" Produkt
+class Kunde {
+-navn
+-orderHistorie
+-kortNummer
+
+~HentHistorie()
+}
+
+class Menu{
+-List<Produkt>
+}
+
+class Produkt {
+-navn
+}
+
+class Online {
+~StartOdre()
+}
+
+class IButik{
+~StartOdre()
+}
+
+class Ordre {
+
+}
+
+class BestillingsOversigt {
+
+}
+
+class OrdreFærdig {
+
+}
+
+class ForbrugOversigt {
+
+}
+
 Ordre --> BestillingsOversigt
 Produkt "1" --* "*" Menu
 Menu "1" --* "*" Kunde
