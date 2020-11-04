@@ -31,21 +31,17 @@ class BestillingsOversigt {
 
 }
 
-class OrdreFærdig {
-
-}
-
 class ForbrugOversigt {
 
 }
 
-Ordre --> BestillingsOversigt
+
 Produkt "1" --* "*" Menu
 Menu "1" --* "*" Kunde
 Kunde "1" --* "*" Online
 Kunde "1" --* "*" IButik
 Online "1" --* "*" Ordre
 IButik "1" --* "*" Ordre
-BestillingsOversigt --* OrdreFærdig
-OrdreFærdig --* ForbrugOversigt
+Ordre "1" --> "*" BestillingsOversigt
+BestillingsOversigt "1" --* "*" ForbrugOversigt
 @enduml

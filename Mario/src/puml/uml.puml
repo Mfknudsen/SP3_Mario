@@ -5,12 +5,9 @@ actor Customer
 actor Alfonso
 
 rectangle "Mario's Pizzaria"{
+  (TyperInd) <--Alfonso
   Customer --> (Menu)
-  Customer --> (Butik)
-  (Online) <. (Order)
-  (Butik) .> (Order)
-  Customer --> (Online)
-
+  (Menu) -> (Order)
   (Order) --> Alfonso
   (ForbrugOversigt) <-- Alfonso
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa4310e1-71c8-4e9c-9d30-840aacebf5ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mario/src/puml/domain.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Mario/src/puml/domain.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mario/src/puml/uml.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Mario/src/puml/uml.puml" afterDir="false" />
     </list>
@@ -39,5 +40,15 @@
       <updated>1604050613094</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1180" y="425" key="FileChooserDialogImpl" timestamp="1604406586368">
+      <screen x="-1920" y="150" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="425" key="FileChooserDialogImpl/0.0.2560.1400/-1920.150.1920.1040@-1920.150.1920.1040" timestamp="1604406586368" />
+    <state x="-1369" y="331" key="new project wizard" timestamp="1604406591695">
+      <screen x="-1920" y="150" width="1920" height="1040" />
+    </state>
+    <state x="-1369" y="331" key="new project wizard/0.0.2560.1400/-1920.150.1920.1040@-1920.150.1920.1040" timestamp="1604406591695" />
   </component>
 </project>
